@@ -1,0 +1,87 @@
+
+/* Misc */
+
+.floatnone {float: none;}
+.float-left {float:left;}
+
+
+.clearfix:after {clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden;}
+
+.clearit {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+}
+.clear-both {clear: both;}
+
+.add-bottom-margin {margin-bottom:25px;}
+
+
+
+::selection {
+	background: #FF4F2C; /* Safari */
+	}
+::-moz-selection {
+	background: #FF4F2C; /* Firefox */
+}
+
+
+/* Layout ----------------------------------------------------------------- */
+
+body { background-color: #ffffff; height:100%; position:relative;}
+
+
+
+
+/* Typography ----------------------------------------------------------------- */
+
+
+body {font-family:georgia, serif; font-size: 16px; line-height: 1.375 ; color: #000000;  }
+
+h1 {font-size: 34px; line-height: 1.2em; margin-bottom: 20px;font-family:helvetica, sans-serif; border-bottom: 1px solid #333; padding-bottom: 10px;  }
+h2 {font-size: 34px; line-height: 1.2em; margin-bottom: 20px;font-family:helvetica, sans-serif; }
+h3 {font-size: 28px; font-weight: normal; }
+h4 {font-size: 18px; font-weight: normal;  }
+h5 {font-family: Helvetica, Arial, sans-serif; font-size: 15px; color:#888888; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 22px;  margin-bottom: 11px;}
+
+
+
+p {margin-bottom:11px; }
+
+ul,
+ol {margin-bottom: 0px;}
+li {margin-left: 0px;}
+a {text-decoration: none; color: #888888;}
+a:hover {color: #FF4F2C; text-decoration: none;}
+
+
+ol {margin-bottom: 20px; }
+ol li {margin-left: 30px; list-style-type: decimal ; list-style-position: inside;  }
+
+.caps {text-transform: uppercase; letter-spacing: 0.1em; font-size: .8em;}
+
+
+.textbox {background-color: #ddd; border: none; padding: 5px ; width:200px ; }
+
+/* main ----------------------------------------------------------------- */
+
+#wrapper {width: 500px; padding: 30px 40px; margin: 0 auto; position: relative;
+}
+.login {margin-bottom:30px ; }
+
+.thelist {border-top: 1px solid #333;}
+.thelist li {border-bottom: 1px solid #ddd;padding: 10px 0; }
+
+
+label, .textbox, .submit {display: block; clear: both; float: left;}
+.textbox { margin-bottom: 15px; }
+.left-wrap, .right-wrap {float: left; margin-right: 10px; }
+
+.shorter {width: 30px; }
+
+a.submit {background-color: #555; padding: 3px 5px;  color: #fff; }
+a:hover.submit {background-color: #222;  }
+
+#input {margin-bottom: 50px; }
+#output {padding: 10px; background-color: #efefef; width: 100%; height: 300PX; overflow: auto; }
