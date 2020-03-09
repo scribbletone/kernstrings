@@ -58,7 +58,7 @@ $(document).ready(function(){
 				if (num_pairs > 0){
 					
 					if (pair_count >= num_pairs) {
-						output = output + '<br />';
+						output = output + '\n';
 						
 						pair_count = 0;
 						
@@ -74,7 +74,7 @@ $(document).ready(function(){
 			
 		}
 		
-		$('#output').html(output);
+		$('#output').val(output);
 		
 	}
 	
@@ -102,6 +102,9 @@ $(document).ready(function(){
 		
 	});
 
+	$("#output").click(function(){
+		$("#output").select();
+	})
 
 
 });

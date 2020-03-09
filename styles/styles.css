@@ -1,4 +1,3 @@
-
 /* Misc */
 
 .floatnone {float: none;}
@@ -37,13 +36,13 @@ body { background-color: #ffffff; height:100%; position:relative;}
 /* Typography ----------------------------------------------------------------- */
 
 
-body {font-family:georgia, serif; font-size: 16px; line-height: 1.375 ; color: #000000;  }
+body {font-family: 'Verdana', sans-serif; font-size: 16px; line-height: 1.375 ; color: #000000;  }
 
-h1 {font-size: 34px; line-height: 1.2em; margin-bottom: 20px;font-family:helvetica, sans-serif; border-bottom: 1px solid #333; padding-bottom: 10px;  }
-h2 {font-size: 34px; line-height: 1.2em; margin-bottom: 20px;font-family:helvetica, sans-serif; }
+h1 {font-size: 34px; line-height: 1.2em; margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 10px;  }
+h2 {font-size: 28px; line-height: 1.2em; margin-bottom: 20px; }
 h3 {font-size: 28px; font-weight: normal; }
 h4 {font-size: 18px; font-weight: normal;  }
-h5 {font-family: Helvetica, Arial, sans-serif; font-size: 15px; color:#888888; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; line-height: 22px;  margin-bottom: 11px;}
+h5 {font-size: 15px; color:#888888; font-weight: bold; text-transform: uppercase; line-height: 22px;  margin-bottom: 11px;}
 
 
 
@@ -78,10 +77,30 @@ label, .textbox, .submit {display: block; clear: both; float: left;}
 .textbox { margin-bottom: 15px; }
 .left-wrap, .right-wrap {float: left; margin-right: 10px; }
 
-.shorter {width: 30px; }
+.shorter {width: 100px; }
 
-a.submit {background-color: #555; padding: 3px 5px;  color: #fff; }
+a.submit {background-color: #555; padding: 5px 10px;  color: #fff; }
 a:hover.submit {background-color: #222;  }
 
-#input {margin-bottom: 50px; }
-#output {padding: 10px; background-color: #efefef; width: 100%; height: 300PX; overflow: auto; }
+input, textarea {
+  font-family: 'Verdana', sans-serif; 
+  font-size: 16px;
+  padding: 10px;
+  border: 0;
+}
+
+#main-form {margin-bottom: 50px; }
+#output {
+  font-size: 14px;
+  padding: 10px; 
+  background-color: #efefef; 
+  width: 100%; 
+  height: 300PX; 
+  overflow: auto; 
+  margin-bottom: 60px;
+}
+
+
+img {
+  max-width: 100%;
+}
