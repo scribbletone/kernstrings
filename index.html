@@ -31,12 +31,12 @@
 			
 			
 			<div class="left-wrap clearfix">
-				<label for="leftglyphs">Left Glyphs</label>
+				<label for="leftglyphs">1st Glyphs</label>
 				<input type="text" id="leftglyphs" name="leftglyphs" class="textbox" />
 			</div><!-- /.left-wrap -->
 			
 			<div class="right-wrap clearfix">
-				<label for="rightglyphs">Right Glyphs</label>
+				<label for="rightglyphs">2nd Glyphs</label>
 				<input type="text" id="rightglyphs" name="rightglyphs" class="textbox" />
 			</div><!-- /.right-wrap -->
 			
@@ -56,8 +56,13 @@
 
 		<div class="help">
 
-			<p><strong>What is this?</strong><br />Given a list of left and right glyphs, this creates all the possible permutations, and sets them in control strings. Useful for building proofs for kerning.</p>
-			<p><strong>What is a left vs right glyph?</strong>
+			<p><strong>What is this?</strong><br />This creates all the possible combinations of the first glyphs with the second glyphs, and sets them in control strings. This is useful for building kerning proofs.</p>
+			<p>
+				For example, if the first glyphs are ‘abc’, and second glyphs are ‘xy’, it will generate a list of: ‘ax ay bx by cx cy’.
+			</p>
+
+			<p><strong>What are 1st vs 2nd glyphs?</strong><br />
+				This identifies which side of the kern pair the glyph belongs to. With the 1st glyphs, we’re looking at the right side of the glyph. With the 2nd, we’re looking at the left side. 
 			</p>
 			<p>
 				<img src='images/left-right-glyphs.png' alt='left and right glyphs example' />
